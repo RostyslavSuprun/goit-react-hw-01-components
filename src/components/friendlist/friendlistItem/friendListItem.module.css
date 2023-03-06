@@ -1,0 +1,31 @@
+.item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+
+    border: 1px solid rgb(108, 108, 108);
+    box-shadow: 3px 3px 3px 0px rgb(177, 175, 175);
+        border-radius: 3px;
+    overflow: hidden;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.avatar {
+    border-radius: 5px;
+}
+
+.name {
+    font-weight: 600;
+}
+.isOnline {
+    color: rgb(92, 250, 0);
+    font-size: 35px;
+}
+.isOffline {
+    color: rgb(238, 12, 12);
+    font-size: 35px;
+}

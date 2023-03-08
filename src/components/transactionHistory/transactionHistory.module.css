@@ -1,34 +1,33 @@
 .transactionHistory {
-    margin-right: auto;
-    margin-left: auto;
- text-align: center;
-border-collapse: collapse;
-border-spacing: 0px;
-background-color: bisque;
-    box-shadow: 3px 3px 3px 0px rgb(177, 175, 175);
-    border-radius: 3px;
-    overflow: hidden;
-    margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  background-color: bisque;
+  box-shadow: 3px 3px 3px 0px rgb(177, 175, 175);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 50px;
 }
 .column {
-    background-color: rgb(43, 175, 175);
-    height: 50px; 
-    font-style: normal;
-    color: azure;
+  background-color: rgb(43, 175, 175);
+  height: 50px;
+  font-style: normal;
+  color: azure;
 }
 .headEl {
-    border: 1px solid white;
+  border: 1px solid white;
 }
 .element {
-    font-size: 12px;
-    width: 100px;
-    padding:5px 15px;
-    
-    border: 1px solid rgb(235, 227, 227);
-    border-bottom: none;
-    border-top: none;
-    
+  font-size: 12px;
+  width: 100px;
+  padding: 5px 15px;
+
+  border: 1px solid rgb(235, 227, 227);
+  border-bottom: none;
+  border-top: none;
 }
 .row:nth-child(2n) {
-    background-color: rgb(214, 202, 186);
+  background-color: rgb(214, 202, 186);
 }

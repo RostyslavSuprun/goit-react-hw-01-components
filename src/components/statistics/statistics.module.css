@@ -1,42 +1,42 @@
 .statistics {
-    margin-right: auto;
-    margin-bottom: 50px;
-    margin-left: auto;
-    width: 320px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  width: 320px;
 
-    text-align: center;
+  text-align: center;
 
-    background-color: bisque;
-    box-shadow: 3px 3px 3px 0px rgb(177, 175, 175);
-        border-radius: 3px;
-    overflow: hidden;
+  background-color: bisque;
+  box-shadow: 3px 3px 3px 0px rgb(177, 175, 175);
+  border-radius: 3px;
+  overflow: hidden;
 }
 
 .title {
-    padding: 15px;
+  padding: 15px;
 
-    color: rgb(150, 163, 179);
-    text-transform: uppercase;
+  color: rgb(150, 163, 179);
+  text-transform: uppercase;
 }
 
 .statList {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
 }
 
 .item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-    width: calc(100% / 5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  width: calc(100% / 5);
 }
 
 .label,
 .percentage {
-    color: aliceblue;
+  color: aliceblue;
 }
